@@ -24,7 +24,7 @@ public LoginPage enterpassword(String data) {
 
 public HomePage clickLogin() {
 	
-	WebElement elesubmit =locateElement("ClassName", "decorativeSubmit" );
+	WebElement elesubmit =locateElement("class", "decorativeSubmit" );
 	click(elesubmit);
 	return new HomePage();
 	}

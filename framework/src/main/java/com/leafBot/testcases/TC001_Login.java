@@ -14,6 +14,11 @@ public class TC001_Login extends ProjectSpecificMethods {
 	@BeforeTest
 	public void setData() {
 		excelFileName="TC001";
+		testcaseName= "TC001_Login Page";
+		 testcaseDec="Login Page";
+		 author="Priya";
+		 category="Smoke";
+		
 	}
 	@Test(dataProvider="fetchData")
 	public void runLogin(String username, String password) {
